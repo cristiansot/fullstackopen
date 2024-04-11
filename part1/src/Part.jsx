@@ -1,13 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Part = ({ parts, exercises }) => {
+const Part = ({ part }) => {
   return (
-    <>
-      <p>{parts} {exercises}</p>
-    </>
-  )
-}
+    <p>{part.name} {part.exercises}</p>
+  );
+};
 
 export default Part;
-
-// 
